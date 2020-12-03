@@ -51,7 +51,7 @@ def main():
 	
 
 	choice1 = st.sidebar.selectbox("",activitie)
-	folder_path="../data"
+	folder_path="covid-19-streamlit-app/data"
 
 	
 
