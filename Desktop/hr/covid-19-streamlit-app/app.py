@@ -329,10 +329,11 @@ def main():
 	st.markdown('<style>div.element-container{color:yellow ;}</style>', unsafe_allow_html=True)
 	st.markdown('<style>body{background-color: #fffd80;}</style>',unsafe_allow_html=True)
 	st.sidebar.title('Real Time Twitter Sentiment Analysis')
+	link = '[👉 Click Here](https://sentiment-analysis-rt.herokuapp.com/)'
+	st.sidebar.markdown(link, unsafe_allow_html=True)
 
-	url = 'https://sentiment-analysis-rt.herokuapp.com/'
-	if st.sidebar.button('Click Here'):
-		webbrowser.open_new_tab(url)
+
+	
     
 
 
